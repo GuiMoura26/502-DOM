@@ -38,11 +38,10 @@ if(localStorage.login){
     }
 }
 
-function limpar() {
-    localStorage.clear();
-    
+function reset() {
+    localStorage.clear("login");
 }
 
 botao.onclick = acessar;
 
-naosou.onclick = limpar;
+a.onclick = reset;
